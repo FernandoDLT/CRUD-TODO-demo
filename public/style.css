@@ -1,0 +1,25 @@
+h2 {
+  color: red;
+}
+
+/* This ejs template is not working, causes an error when npm start
+        <ul class="todo-list">
+          <% todoTask.forEach(task => {%>
+            <li class="todo-list-item">
+              <div class="todo-list-item-title">
+                <%= task.title %>
+              </div>
+              <div class="todo-list-item-content">
+                <%= task.content %>
+              </div>
+              <a href="/edit/<%=task._id %>"
+                class="edit"><span class="fas fa-edit"></span>
+              </a>
+              <a href="/remove/<%=task._id %>" class="times">
+                <span class="fas fa-edit"></span>
+              </a>
+            </li>
+          <% }) %>
+        </ul>
+
+*/
